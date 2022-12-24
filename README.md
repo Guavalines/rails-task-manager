@@ -1,6 +1,6 @@
 ## TO DO MANAGER with basic CRUD features: 
 ### A user can... 
-1.) list tasks 2.) view task details 3.) add new task 4.) edit task (mark/unmark done) 5.) remove task
+1.) LIST tasks 2.) VIEW task details 3.) ADD new task 4.) EDIT task (mark/unmark done) 5.) REMOVE task
 
 
 
