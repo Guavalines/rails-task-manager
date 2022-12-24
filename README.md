@@ -1,14 +1,7 @@
-## To Do Manager with basic CRUD features: 
-#### A user can... 
-- list tasks
+## TO DO MANAGER with basic CRUD features: 
+### A user can... 
+1.) list tasks 2.) view task details 3.) add new task 4.) edit task (mark/unmark done) 5.) remove task
 
-- view the details of a task
-
-- add a new task
-
-- edit a task (mark as completed / update title & details)
-
-- remove a task.
 
 
 ## Initialize these before starting the app:
