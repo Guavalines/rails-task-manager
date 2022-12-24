@@ -1,4 +1,4 @@
-## TO DO MANAGER with basic CRUD features: 
+## TO DO MANAGER | with basic CRUD features: 
 ### A user can... 
 1.) LIST tasks  2.) VIEW task details  3.) ADD new task  4.) EDIT task (mark/unmark done)  5.) REMOVE task
 
