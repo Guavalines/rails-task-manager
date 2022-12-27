@@ -16,7 +16,7 @@
 
 ```
  git clone git@github.com:guavalines/rails-task-manager.git
- cd rails-stupid-coaching
+ cd rails-task-manager
  rails db:create db:migrate db:seed:replant
  bundle install
  yarn install
