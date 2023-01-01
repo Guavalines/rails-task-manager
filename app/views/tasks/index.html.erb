@@ -1,8 +1,10 @@
-<ul>
-  <% @tasks.each do |task| %>
-    <%#             content     _path %>
-    <li><%= link_to task.title, task_path(task.id) %></li>
-  <% end %>
-</ul>
+<div class="container">
+  <ul>
+    <% @tasks.each do |task| %>
+      <%#             content     _path %>
+      <li><%= link_to task.title, task_path(task.id) %></li>
+    <% end %>
+  </ul>
 
-<%= link_to "Click here to add a task", new_task_path %>
+  <%= link_to "Click here to add a task", new_task_path %>
+</div>
