@@ -1,9 +1,2 @@
-<%= form_for(@task) do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :details %>
-  <%= f.text_field :details %>
-  <%= f.label :completed %>
-  <%= f.number_field :completed %>
-  <%= f.submit %>
-<% end %>
+<h1>EDIT YOUR TASK</h1>
+<%= render "form", task: @task %>

@@ -1,7 +1,11 @@
+<div>
+  <h1>TASK DETAILS</h1>
+</div>
 <div class="container">
   <h2><%= @task.title %></h2>
   <h3><strong>DETAILS: </strong><%= @task.details %></h3>
   <h3><strong>STATUS: </strong><%= @task.completed? ? "Completed" : "Uncompleted" %></h3>
   <br>
   <%= link_to "Back", tasks_path, class: "btn btn-dark" %>
+  <%= link_to "Edit Task", edit_task_path(@task) %>
 </div>
