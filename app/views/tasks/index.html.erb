@@ -2,29 +2,23 @@
   <h1>My Tasks</h1>
 </div>
 
-<br>
-
-
-<h6><%= link_to "Add Task", new_task_path  %></h6>
-
 <div class="container">
-<ul class="myUL">
-  <% @tasks.each do |task| %>
-    <li><% if task.completed? %>
-      <i class="fa-solid fa-check-square"></i>
-      <% else %>
-        <i class="fa-solid fa-square"></i>
-    <% end %>
-    <strong><%= link_to task.title, task_path(task) %></strong> <%= task.details %>
-    <%= link_to task_path(task), method: :delete, data: {confirm: "Are you sure?"} do %>
-      <i class="fa-solid fa-trash-can"></i>
-    <% end %>
-    </li>
-  <% end %>
-</ul>
+<h5><strong><%= link_to "Add Task", new_task_path  %> | <%= link_to "Back", root_path %></strong></h5>
 </div>
 
-
-
-<br>
-<%= link_to "Back", root_path, class: "btn btn-dark" %>
+<div class="container">
+  <ul class="myUL">
+    <% @tasks.each do |task| %>
+      <li><% if task.completed? %>
+        <i class="fa-solid fa-check-square"></i>
+        <% else %>
+          <i class="fa-solid fa-square"></i>
+      <% end %>
+      <strong><%= link_to task.title, task_path(task) %></strong> <%= task.details %>
+      <%= link_to task_path(task), method: :delete, data: {confirm: "Are you sure?"} do %>
+        <i class="fa-solid fa-trash-can"></i>
+      <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>
