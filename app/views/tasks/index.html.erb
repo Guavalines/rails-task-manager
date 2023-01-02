@@ -1,19 +1,14 @@
-<div class="container">
+<div>
   <h1>My Tasks</h1>
-  <ul>
-    <% @tasks.each do |task| %>
-      <%#             content     _path %>
-      <li><%= link_to task.title, task_path(task.id) %></li>
-    <% end %>
-  </ul>
-
-  <%= link_to "Click here to add a task", new_task_path %>
-  <br>
-  <%= link_to "Back", root_path, class: "btn btn-dark" %>
-
 </div>
 
-<ul>
+<br>
+
+
+<h6><%= link_to "Add Task", new_task_path  %></h6>
+
+<div class="container">
+<ul class="myUL">
   <% @tasks.each do |task| %>
     <li><% if task.completed? %>
       <i class="fa-solid fa-check-square"></i>
@@ -27,5 +22,9 @@
     </li>
   <% end %>
 </ul>
+</div>
 
-<h3><%= link_to "Add Task", new_task_path  %></h3>
+
+
+<br>
+<%= link_to "Back", root_path, class: "btn btn-dark" %>
