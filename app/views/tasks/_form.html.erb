@@ -1,9 +1,6 @@
-<%= form_for(@task) do |f| %>
-  <%= f.label :title, :class => 'block'%>
-  <%= f.text_field :title %>
-  <%= f.label :details, :class => 'block' %>
-  <%= f.text_field :details %>
-  <%= f.label :completed, :class => 'block' %>
-  <%= f.number_field :completed %>
-  <%= f.submit %>
+<%= simple_form_for(task) do |t| %>
+  <%= t.input :title %>
+  <%= t.input :details %>
+  <%= t.input :completed if task.persisted? %>
+  <%= t.submit %>
 <% end %>
