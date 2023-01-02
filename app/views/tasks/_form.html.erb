@@ -1,9 +1,9 @@
 <%= form_for(@task) do |f| %>
-  <%= f.label :title %>
+  <%= f.label :title, :class => 'block'%>
   <%= f.text_field :title %>
-  <%= f.label :details %>
+  <%= f.label :details, :class => 'block' %>
   <%= f.text_field :details %>
-  <%= f.label :completed %>
+  <%= f.label :completed, :class => 'block' %>
   <%= f.number_field :completed %>
   <%= f.submit %>
 <% end %>
