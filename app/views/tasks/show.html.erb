@@ -1,7 +1,7 @@
 <div class="container">
   <h2><%= @task.title %></h2>
-  <p><%= @task.details %></p>
-  <p><%= @task.completed %></p>
+  <h3>DETAILS: <%= @task.details %></h3>
+  <h3>STATUS: <%= @task.completed? ? "Completed" : "Uncompleted" %></h3>
+  <br>
+  <%= link_to "Back", tasks_path, class: "btn btn-dark" %>
 </div>
-
- <%= link_to "Back", tasks_path, class: "btn btn-dark" %>
