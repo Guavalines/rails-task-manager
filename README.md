@@ -12,7 +12,7 @@
 
 ![Edit Tasks](https://user-images.githubusercontent.com/100665876/210464966-63cc92c9-9d30-4686-a90f-7ecb7045787a.jpeg)
 
-3.) EDIT task (mark/unmark done) (UPDATE)
+3.) EDIT task (mark/unmark done) (UPDATE)  
 4.) REMOVE task (DESTROY)
 
 ![Edit Task](https://user-images.githubusercontent.com/100665876/210465164-63de6c0e-dd9d-405b-954e-8c6f2781ced3.jpeg)
