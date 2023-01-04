@@ -1,6 +1,6 @@
 ## TASK MANAGER
 
-### Rails App using ACTIVE RECORD and MVC pattern
+### This is a Rails App using ACTIVE RECORD and MVC pattern
 
 ### With basic CRUD features, a user can... 
 1.) LIST tasks  2.) VIEW task details  3.) ADD new task  4.) EDIT task (mark/unmark done)  5.) REMOVE task
