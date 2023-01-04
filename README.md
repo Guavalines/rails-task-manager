@@ -5,8 +5,7 @@
 ### With basic CRUD features, a user can... 
 1.) LIST tasks  2.) VIEW task details  3.) ADD new task  4.) EDIT task (mark/unmark done)  5.) REMOVE task
 
-![My Tasks](https://user-images.githubusercontent.com/100665876/210464460-480d1526-3358-4f07-9513-e1c15d8bd287.jpeg)
-
+![My Tasks](https://user-images.githubusercontent.com/100665876/210465791-f694317b-3c5e-4744-bf65-83ce04e6e6c2.jpeg)
 
 ![Edit Tasks](https://user-images.githubusercontent.com/100665876/210464966-63cc92c9-9d30-4686-a90f-7ecb7045787a.jpeg)
 
