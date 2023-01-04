@@ -5,6 +5,7 @@
 ![My Tasks](https://user-images.githubusercontent.com/100665876/210464460-480d1526-3358-4f07-9513-e1c15d8bd287.jpeg)
 
 
+![Edit Tasks](https://user-images.githubusercontent.com/100665876/210464966-63cc92c9-9d30-4686-a90f-7ecb7045787a.jpeg)
 
 ## Initialize these before starting the app:
 
