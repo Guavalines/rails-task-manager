@@ -4,16 +4,16 @@
 
 ### With basic CRUD features, a user can... 
 
-1.) ADD new task (CREATE)
+1.) ADD new task (CREATE)  
+2.) REMOVE task (DESTROY)
 
 ![My Tasks](https://user-images.githubusercontent.com/100665876/210465791-f694317b-3c5e-4744-bf65-83ce04e6e6c2.jpeg)
 
-2.) VIEW task details (READ)
+3.) VIEW task details (READ)
 
 ![Edit Tasks](https://user-images.githubusercontent.com/100665876/210464966-63cc92c9-9d30-4686-a90f-7ecb7045787a.jpeg)
 
-3.) EDIT task (mark/unmark done) (UPDATE)  
-4.) REMOVE task (DESTROY)
+4.) EDIT task (mark/unmark done) (UPDATE)
 
 ![Edit Task](https://user-images.githubusercontent.com/100665876/210465164-63de6c0e-dd9d-405b-954e-8c6f2781ced3.jpeg)
 
