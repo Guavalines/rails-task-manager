@@ -30,4 +30,4 @@
  yarn install
  rails server
 ```
-Open you browser and visit localhost:3000
+Open your browser and visit localhost:3000
