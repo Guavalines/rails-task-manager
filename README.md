@@ -2,6 +2,8 @@
 ### With basic CRUD features, a user can... 
 1.) LIST tasks  2.) VIEW task details  3.) ADD new task  4.) EDIT task (mark/unmark done)  5.) REMOVE task
 
+![My Tasks](https://user-images.githubusercontent.com/100665876/210464460-480d1526-3358-4f07-9513-e1c15d8bd287.jpeg)
+
 
 
 ## Initialize these before starting the app:
